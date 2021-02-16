@@ -1,10 +1,8 @@
-import Axios from 'axios';
+import Axios from "axios";
 
 export default Axios.create({
-  baseURL: 'https://api.unsplash.com',
+  baseURL: "https://api.unsplash.com",
   headers: {
-        Authorization: 'Client-ID 1AF0CJt4CO0YnUUyS0IcjsFBTLQWLZFGkivYrTj7CaA'
-      }
-})
-
-//this is just a test
+    Authorization: "Client-ID 1AF0CJt4CO0YnUUyS0IcjsFBTLQWLZFGkivYrTj7CaA",
+  },
+});
